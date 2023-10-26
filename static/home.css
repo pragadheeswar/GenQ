@@ -1,0 +1,174 @@
+body{
+    margin:0px
+}
+
+
+
+
+.nav{
+    display:flex;
+    background-color:  rgb(229, 226, 226);
+    padding:0px;
+    margin:8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+
+
+
+
+
+li{
+    list-style-type: none;
+
+    border-right: 2px solid white;
+    width:120px;
+    text-align: center;
+    padding: 15px;
+    
+    
+}
+
+
+
+
+
+.about{
+  
+   margin-left:auto;
+   border-left: 2px solid white;
+   
+   
+    
+}
+
+
+a{
+    text-decoration:none;
+    color:black;
+    font-size: 25px;
+   
+}
+
+.heading{
+    background-image:url("images/back_img.jpg");
+    padding:264px;
+    padding-left:100px;
+
+    background-position: center;
+    
+    
+
+
+}
+
+
+.title-1{
+    color:white;
+    font-size:60px;
+    margin:0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
+
+.title-2{
+    color:white;
+    font-size:60px;
+    margin:0px;
+    margin-left:60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/* .dropdown{
+    display:block;
+    border:none;
+    background-color:rgb(229, 226, 226) ;
+    color: black;
+    font-size: 25px;
+    padding-top: 1px;
+    margin-left: 0px;
+    font-family: aerial;
+    padding-left: 0px;
+
+    width:120px
+    
+} */
+
+.dropdown{
+    display:inline-block
+}
+
+.dropdown a {
+    display:block;
+    padding: 0px;
+   
+
+}
+
+.dropdown li{
+    display:block;
+    background-color: rgb(229, 226, 226);
+    padding: 20px;
+   
+}
+
+
+.dropdown-menu{
+    position:absolute;
+    display:none;
+    z-index: 999;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.dropdown a:hover{
+    background-color: rgb(229, 226, 226);
+}
+
+.dropdown:hover .dropdown-menu{
+    display:block;
+}
+
+
+
+.drop1{
+
+    
+    
+    padding:0px;
+   
+    
+   
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom:20px ;
+    border: 1px solid white;
+    font-size: 20px;
+    margin:0px;
+}
+
+.drop2{
+    font-size: 20px;
+   
+    border: 1px solid white;
+    
+    margin:0px;
+    padding: 0px;
+    padding-top: 15px;
+    
+   
+    
+
+}
+
+
+  
+
+
+
+

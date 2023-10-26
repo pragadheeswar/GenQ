@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Insertion</title>
+
+        <link rel="stylesheet" href="static/form1.css">
+    </head>
+    <body>
+        <form action="/insertion" method="POST">
+        <div class="form">
+
+        {% for message in get_flashed_messages() %}
+        <p class="fade-in"> {{message}} </p>
+        {% endfor %}
+    
+
+        <h2 class="heading">Add Questions</h2>
+
+
+        <label for="subject">Subject :</label>
+        <select name="subject" id="subject" required>
+            <option value="">--select subject--</option>
+            <option value="subject1">Computer Networks</option>
+        </select>
+
+        
+
+        
+        
+        <br>
+        <br>
+        <label for="textarea">Question :</label>
+        <textarea class="textarea" id="textarea" name="question" placeholder="enter question*" required></textarea>
+        <br>
+        <br>
+
+        <label for="unit">Unit :</label>
+        <input type="text" class="unit" id="unit" name="unit" placeholder="enter unit*" required>
+        
+        <br>
+        <br>
+
+
+
+        <label for="level">Level :</label>
+        <select name="level" id="level" required>
+            <option value="">--select level--</option>
+            <option value="0">remembering</option>
+            <option value="1">understanding</option>
+            <option value="2">creative</option>
+           
+        </select>
+
+        <br><br>
+
+
+
+        <label for="mark">Mark :</label>
+        <input type="text" name="mark" class="mark" id="mark" placeholder="enter marks*" required>
+
+        <br>
+        <br>
+
+
+        <label for="importance">Importance :</label>
+        <input type="text" class="importance" id="importance" name="importance" placeholder="enter importance*" required>
+
+        <br>
+        <br>
+
+        <input type="submit" name="submit" class="submit" value="submit">
+        <a href="/" class="button">Return Home</a>
+
+        </div>
+
+        </form>
+    </body>
+</html>

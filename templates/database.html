@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+
+    <link rel="stylesheet" href="static/database.css">
+</head>
+<body>
+	<header>
+		<h1>{{heading}}</h1>
+	</header>
+	<table>
+		<thead>
+			<tr>
+				<th>Q_id</th>
+				<th>Question</th>
+				<th>Unit</th>
+                <th>Level</th>
+                <th>Importance</th>
+                
+			</tr>
+		</thead>
+		<tbody>
+			{% for row in rows %}
+			<tr>
+				<td>{{ row[0] }}</td>
+				<td>{{ row[1] }}</td>
+				<td>{{ row[2] }}</td>
+                <td>{{ row[3] }}</td>
+                <td>{{ row[4] }}</td>
+                
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</body>
+</html>

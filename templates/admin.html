@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>admin</title>
+
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+
+<body>
+    <form class="container" action="/admin" method="POST">
+        <div class="content">
+            {%  for message in get_flashed_messages() %}
+            <p class="fade-in">{{message}}</p>
+            {% endfor %}
+            
+            <p class="text">Admin login</p>
+            
+            <input class="name" type="text" name="name"  placeholder="your name*" required>
+            <br>
+            <!-- <input class="email" type="text" name="email"  placeholder="your email*" required>
+            <br> -->
+            <input class="password" type="password" name="password" placeholder="your password*" required>
+            <br>
+            <button class="submit" type="submit">login</button>
+        </div>
+    </form>
+</body>
+
+
+
+
+
+
+
+
+
+</html>

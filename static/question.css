@@ -1,0 +1,52 @@
+.template{
+    width: 800px;
+    border:2px solid black;
+    padding:40px;
+    padding-top:20px ;
+    
+    
+}
+
+body{
+    display:flex;
+    justify-content: center;
+   
+}
+
+
+
+
+h3{
+    text-align:center;
+}
+
+
+.flex-itm{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.two-mark{
+    font-size: 18px;
+
+}
+
+
+.twelve-mark{
+    font-size: 18px;
+
+}
+
+
+.sixteen-mark{
+    font-size: 18px;
+
+}
+
+
+.fun{
+    float:right;
+}
+
+

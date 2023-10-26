@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Get</title>
+
+
+        <link rel="stylesheet" href="static/form2.css">
+    </head>
+    <body>
+
+        <form action="/get" method="POST">
+        <div class="form">
+
+        {% for message in get_flashed_messages() %}
+        <p class="fade-in"> {{message}} </p>
+        {% endfor %}
+
+        <h2 class="heading">Get Questions paper</h2>
+        
+        <label for="course">Course :</label>
+        <select name="course" id="course">
+                    <option value="">--select course--</option>
+                    <option value="Computer Networks">Computer Networks</option>
+                    
+        </select>
+
+        <br>
+        <br>
+
+
+        <label for="subjectcode">Subject Code:</label>
+        <select name="subjectcode" id="subjectcode">
+            <option value="">--select code--</option>
+            <option value="CS8591">CS8591</option>
+             
+        </select>
+
+        <br>
+        <br>
+
+        <label for="sem">Semester Type :</label>
+        <select name="sem" id="sem" >
+            <option value="">--select semester--</option>
+            <option value="1">sem1</option>
+            <option value="2">sem2</option>
+            <option value="3">sem3</option>
+            <option value="4">sem4</option>
+            <option value="5">sem5</option>
+            <option value="6">sem6</option>
+        </select>
+
+        
+
+        <br>
+        <br>
+
+        <label for="questionpaper">Exam Name :</label>
+        <input type="text" class="questionpaper" id="questionpaper" name="questionpaper" placeholder="enter exam name*" >
+
+        <br>
+        <br>
+
+        <label for="marks">Marks :</label>
+        <select name="marks" id="marks">
+            <option value="">--select marks--</option>
+            <option value="50">50 marks</option>
+            <option value="100">100 marks</option>
+            
+        </select>
+
+        <br>
+        <br>
+
+
+        <label style="float:left" for id="units">Unit :</label>
+
+       
+        
+        <p id="units">
+        <input type="checkbox" id="unit1" name="unit"  value="1"> 1
+       
+        <input type="checkbox" id="unit2" name="unit" value="2"> 2
+        
+        <input type="checkbox" id="unit3" name="unit" value="3"> 3
+       
+        <input type="checkbox" id="unit4" name="unit" value="4"> 4
+        
+        <input type="checkbox" id="unit5" name="unit" value="5"> 5
+        
+        </p>
+       
+
+        <br>
+        <br>
+
+        <label for="timing">Timing for Exam :</label>
+        <select name="timing" id="timing" required>
+            <option value="">--select timing--</option>
+            <option value="1/2">1/2</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        
+
+        <br>
+        <br>
+
+        <button class="button">Download</button>
+        <a href="/" class="button">Return Home</a>
+
+
+        </div>
+        </form>
+    </body>
+</html>

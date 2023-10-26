@@ -1,0 +1,162 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.form{
+    
+    display:inline-block;
+    width:450px;
+    height: 640px;
+    text-align: center;
+    line-height: 32px;
+    margin-top:40px;
+    
+    padding:20px;
+    padding-top:10px;
+    box-shadow: 0px 1px 5px 9px rgba(0,0,0,0.4);  
+    
+}
+
+
+
+select{
+    padding: 4px;
+    width: 220px;
+    float:right;
+    border-radius: 2px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px black;
+    
+    
+}
+
+label{
+    font-size: 20px;
+    float:left;
+    font-weight: bold;
+    
+
+    
+}
+
+
+.questionpaper{
+    padding: 8px;
+    float:right;
+    width:200px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 2px;
+    
+   
+}
+
+#units{
+    float:right;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+textarea{
+    padding:4px;
+    float:right;
+    width:210px;
+    border: 1px solid black;
+    
+    font-size:15px;
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 2px;
+    
+}
+
+.submit{
+    text-align: center;
+    float:none;
+    margin-top: 20px;
+    color:black;
+    background-color:rgb(229, 226, 226);
+    font-size:20px;
+    padding:10px;
+    width:120px;
+    box-shadow: 1px 1px 1px 1px black;
+    font-style:bold;
+    border-radius: 4px;
+}
+
+.heading{
+    margin-bottom:40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px;
+    margin-top:10px;
+
+   
+   
+}
+
+::placeholder{
+    color:black;
+    font-size:15px;
+    
+    
+   
+}
+
+
+.submit:hover{
+    background-color:rgb(205, 201, 201);
+    cursor: pointer;
+}
+
+.button{
+    text-align: center;
+    float:none;
+    margin-top: 20px;
+    color:black;
+    background-color:rgb(229, 226, 226);
+    font-size:20px;
+    padding:10px;
+    width:120px;
+    box-shadow: 1px 1px 1px 1px black;
+    font-style:bold;
+    border-radius: 4px;
+
+}
+
+
+.button:hover{
+    background-color:rgb(205, 201, 201);
+    cursor: pointer;
+}
+
+
+
+
+@keyframes fade-in{
+    0%{ opacity: 1;}
+    100%{ opacity: 0;}
+    
+}
+
+.fade-in{
+    animation: fade-in 4s forwards;
+
+    margin-top:0px;
+    margin-bottom: 2px;
+    padding: 2px;
+
+    
+    border:2px solid green;
+    color: green;
+    font-weight:bold;
+    font-style: italic;
+    font-size:20px
+}

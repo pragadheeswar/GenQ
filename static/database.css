@@ -1,0 +1,18 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Style the table header */
+th {
+    background-color: rgb(229, 226, 226);
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style the table cells */
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
